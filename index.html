@@ -33,17 +33,20 @@ body {
   font-size: 22px;
   color: #FFA500;
   text-align: center;
+  background: url(haiku.svg)no-repeat;
   background-color: #00FF7F;
   padding:20px;
+
+
 }
 
 button {
   background-color: transparent;
   color:white;
   border:solid white 5px;
-  width:200px;
+  width:270px;
   padding:10px;
-  margin:10px;
+  margin:15px;
 }
 
 button:hover {
@@ -57,7 +60,7 @@ input[type=text] {
   color:white;
 }
 </style>
-
+<!--
   <style>
   .row {
     margin-top: 10px;
@@ -67,7 +70,7 @@ input[type=text] {
     -moz-outline-radius: 10px;
     -webkit-outline-radius: 10px;
   }
-  </style>
+  </style> -->
 </head>
 
 <body>
@@ -78,7 +81,9 @@ input[type=text] {
 
           <p>Type small cap words. Capital words won't be recognized. </p>
   <div>
+
     <div class="row">
+      <button onclick="window.location.href = 'haiku.html';" id="between">How to write a Haiku</button>
 
       <h2> Step 1 </h2>
       <p>Type a word you need help finding a synonym. </p>
@@ -114,7 +119,7 @@ input[type=text] {
       <p id="results3"></p>
     </div>
   </div>
-
+<footer>&copy; Copyright Harout Kullukian 2019</footer>
   <script language="javascript" type="text/javascript">
 
 
@@ -187,4 +192,3 @@ function setup() {
 </body>
 
 </html>
-
